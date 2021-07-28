@@ -1,0 +1,54 @@
+/* .Banner-main{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 167, 186);
+    background-image: url('./girl3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+} */
+.Banner-main {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    height: 600px;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.Banner-main::before {    
+      content: "";
+      background-image: url('./girl3.png');
+      background-color: rgb(253, 116, 116);
+      background-size: cover;
+      
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      padding-top: 100px;
+      opacity: 0.95;
+}
+.content{
+    width: 500px;
+    height: 420px;
+    position: relative;
+    padding-top: 90px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(233, 233, 233, 0.411);
+    background-position: center;
+}
+
+
+span{
+    font-size: 100px;
+}

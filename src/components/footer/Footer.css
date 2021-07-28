@@ -1,0 +1,16 @@
+.Footer-main{
+   color: rgb(0, 0, 0);
+   height: 70px;
+   background-color: rgb(255, 255, 255);
+   bottom: 0;
+   border-top: 1px solid black;
+   justify-content: center;
+  
+   
+
+}
+.copyright{
+  
+   padding-top: 20px;
+   text-align: center;
+}

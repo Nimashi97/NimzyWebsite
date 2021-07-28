@@ -1,0 +1,38 @@
+.Content1-main{
+    position: relative;
+    height: 600px;
+  
+   
+}
+
+.image-grid-container {
+    display: grid;
+
+    /* For 2 columns */
+    grid-template-columns: auto auto ;
+}
+
+.im1 {
+    width: 100%;
+    height: 600px;
+}
+img {
+    width: 100%;
+    height: 300px;
+}
+/* .image-grid-container:hover {
+   
+    transition: .3s ease-in-out;
+    transform: scale(1.5);
+} */
+
+
+/* div.card-img-overlay {
+    
+    top: 80%;
+    left: 30%;
+    color: black;
+  } */
+
+ 
+  
